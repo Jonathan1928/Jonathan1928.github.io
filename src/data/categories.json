@@ -2,7 +2,7 @@
   {
     "id": "mechanical",
     "title": "Mechanical Projects",
-    "imageSrc": "/assets/Projects/gears.jpg",
+    "imageSrc": "assets/Projects/gears.jpg",
     "items": [
       {
         "id": "m1",
@@ -12,8 +12,8 @@
         "timeline": "Jan – Apr 2025",
         "description": "Designed and optimized a 5:1 differential gearbox in SolidWorks.",
         "images": [
-          "/assets/mech1.png",
-          "/assets/mech2.png"
+          "assets/mech1.png",
+          "assets/mech2.png"
         ],
         "skills": [
           "CAD (SolidWorks)",
@@ -31,7 +31,7 @@
   {
     "id": "software",
     "title": "Software Projects",
-    "imageSrc": "/assets/Projects/software.jpg",
+    "imageSrc": "assets/Projects/software.jpg",
     "items": [
       {
         "id": "s1",
@@ -48,7 +48,7 @@
   {
     "id": "general",
     "title": "General Projects",
-    "imageSrc": "/assets/Projects/general.jpg",
+    "imageSrc": "assets/Projects/general.jpg",
     "items": [
       {
         "id": "g1",
