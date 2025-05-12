@@ -26,18 +26,50 @@ export const Navbar = () => {
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
         >
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
-          </li>
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
+         <li>
+  <button 
+    className={styles.menuLink}
+    onClick={() => {
+      document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+      setMenuOpen(false);
+    }}
+  >
+    About
+  </button>
+</li>
+<li>
+  <button 
+    className={styles.menuLink}
+    onClick={() => {
+      document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+      setMenuOpen(false);
+    }}
+  >
+    Projects
+  </button>
+</li>
+<li>
+  <button 
+    className={styles.menuLink}
+    onClick={() => {
+      document.getElementById("skills").scrollIntoView({ behavior: "smooth" });
+      setMenuOpen(false);
+    }}
+  >
+    Skills
+  </button>
+</li>
+<li>
+  <button 
+    className={styles.menuLink}
+    onClick={() => {
+      document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+      setMenuOpen(false);
+    }}
+  >
+    Contact
+  </button>
+</li>
         </ul>
       </div>
     </nav>
