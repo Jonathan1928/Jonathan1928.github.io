@@ -4,46 +4,49 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-top: 61px;
+  justify-content: space-between;  /* ← changed */
+  padding: 1rem 10%;               /* ← changed */
   z-index: 2;
-  margin: 0 10%;
 }
-
 .title {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
 }
-
-
 .menuBtn {
   display: none;
 }
-
 .menu {
-  display: flex;
+  display: flex;                   /* ← changed: inline on desktop */
+  gap: 2rem;                       /* ← new spacing */
+  align-items: center;             /* ← changed */
+  position: static;                /* ← removed absolute positioning */
 }
-
 .menuItems {
-  display: flex;
-  gap: 47px;
-  list-style: none;
+  display: flex;                   /* ← changed: inline row */
+  gap: 2rem;                       /* ← changed spacing */
+  list-style: none;                /* ← ensure no bullets */
+  margin: 0;                       /* ← reset default */
+  padding: 0;
 }
 
-.menuItems a {
-  font-size: 25px;
+.menuLink {
+  background: none;                /* ← new button reset */
+  border: none;
   color: var(--color-text);
-  text-decoration: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 0;
 }
-
+.menuLink:hover {
+  text-decoration: underline;      /* ← new hover effect */
+}
 @media screen and (max-width: 830px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
   }
-
   .menu {
     position: absolute;
     right: 0;
@@ -53,30 +56,25 @@
     gap: 11px;
     z-index: 3;
   }
-
   .menuBtn {
     display: block;
     cursor: pointer;
   }
-
-  .menuItems {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    gap: 13px;
-    border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
-    padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+.menuItems {
+    display: none;                 /* ← hide by default */
+    flex-direction: column;        /* ← vertical list on mobile */
+    gap: 1rem;
+    background: rgba(25, 55, 109, 0.95);
+    padding: 1rem;
+    border-radius: 8px;
+    position: absolute;
+    top: 4rem;
+    right: 10%;
+    z-index: 3;
   }
 
-  .menuOpen {
+  /* show mobile menu when open */
+  .menuOpen .menuItems {
     display: flex;
-    z-index: 1;
   }
 }

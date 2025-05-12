@@ -14,12 +14,12 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Intellectually Curious</h3>
               <p>
-                I am an avid learner with intrinsic motivation to expand my knowledge. 
-                By pushing myself to learn as much as possible, I have developed a love for
-                the intricacy of different mechanisms. This has further peaked my interest in learning
-                because the more I dive into a topic the more I see there is to learn. This bottomless
-                pit of discovery and potential knowledge accessible to me fuels my drive to understand the world. 
-                I hope to always know how to find the answers to the questions I do not know yet. 
+                I am an avid learner, intrinsically motivated to understand how different mechanisms work.
+                The deeper I dive into any subject, the more I discover an endless well of ideas waiting to be explored, 
+                fueling my curiosity. 
+                When I encounter something I do not yet understand, I know exactly how to seek out the right resources. 
+                Whether it is textbooks, YouTube tutorials, or leveraging AI, 
+                I am committed to grasping the underlying process, not just the end result. 
               </p>
             </div>
           </li>

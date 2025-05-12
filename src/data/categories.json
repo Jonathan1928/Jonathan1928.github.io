@@ -2,7 +2,7 @@
   {
     "id": "mechanical",
     "title": "Mechanical Projects",
-    "imageSrc": "assets/Projects/gears.jpg",
+    "imageSrc": "projects/gears.jpg",
     "items": [
       {
         "id": "m1",
@@ -31,7 +31,7 @@
   {
     "id": "software",
     "title": "Software Projects",
-    "imageSrc": "assets/Projects/software.jpg",
+    "imageSrc": "projects/software.jpg",
     "items": [
       {
         "id": "s1",
@@ -48,7 +48,7 @@
   {
     "id": "general",
     "title": "General Projects",
-    "imageSrc": "assets/Projects/general.jpg",
+    "imageSrc": "projects/general.jpg",
     "items": [
       {
         "id": "g1",
