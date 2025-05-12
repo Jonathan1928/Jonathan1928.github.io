@@ -1,0 +1,7 @@
+/* src/components/ProjectTemplate/ProjectTemplateWrapper.module.css */
+.pageWrapper {
+    background-color:--color-bg;
+    min-height: 100vh;
+    padding-top: var(--nav-height); /* if your navbar is fixed */
+  }
+  

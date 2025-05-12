@@ -1,0 +1,60 @@
+[
+  {
+    "id": "mechanical",
+    "title": "Mechanical Projects",
+    "imageSrc": "/assets/Projects/gears.jpg",
+    "items": [
+      {
+        "id": "m1",
+        "title": "Differential Gearbox",
+        "label": "Differential Gearbox",
+        "link": "/projects/mechanical/m1",
+        "timeline": "Jan – Apr 2025",
+        "description": "Designed and optimized a 5:1 differential gearbox in SolidWorks.",
+        "images": [
+          "/assets/mech1.png",
+          "/assets/mech2.png"
+        ],
+        "skills": [
+          "CAD (SolidWorks)",
+          "Finite Element Analysis",
+          "GD&T"
+        ]
+      },
+      {
+        "id": "m2",
+        "label": "Planetary Gear System",
+        "link": "/projects/mechanical/m2"
+      }
+    ]
+  },
+  {
+    "id": "software",
+    "title": "Software Projects",
+    "imageSrc": "/assets/Projects/software.jpg",
+    "items": [
+      {
+        "id": "s1",
+        "label": "Inventory Tracker",
+        "link": "/projects/software/s1"
+      },
+      {
+        "id": "s2",
+        "label": "Tool Y",
+        "link": "/projects/software/s2"
+      }
+    ]
+  },
+  {
+    "id": "general",
+    "title": "General Projects",
+    "imageSrc": "/assets/Projects/general.jpg",
+    "items": [
+      {
+        "id": "g1",
+        "label": "Misc 1",
+        "link": "/projects/general/g1"
+      }
+    ]
+  }
+]
