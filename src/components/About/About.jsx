@@ -28,12 +28,12 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Ecological Restoration</h3>
               <p>
-                The Earth is a beautiful place with it's countless geological formations, 
-                aquatic features, flora, and fauna. By being able to see a small glimpse
-                of these, I have incredible admiration of our planet and want to make sure countless
-                generations get to witness it as well.
-                In the future I would like to contribute to work that I know helps restore the Earth in some manner. 
-                The Earth has shown incredibe resiliance and ability to recover, showing hope for its longevity. 
+                The Earth is a breathtaking tapestry of geological formations, winding waterways, lush vegetation, and vibrant wildlife. 
+                Even a brief glimpse of these wonders has filled me with profound admiration for our planet, 
+                and I want to ensure that countless generations can experience them as well. 
+                I am eager to apply my engineering skills to projects that reduce our environmental footprint or restore the Earth, 
+                because it is never too late to make a difference. 
+                Contributing to the workforce dedicated to our planet’s renewal is where I want to focus my energy.  
               </p>
             </div>
           </li>
@@ -42,12 +42,11 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Culinary Passion</h3>
               <p>
-                From a young age I have loved cooking and especially eating despite being kind of a picky eater.
-                I find that cooking allows me to physical extress my creativity and love for food in a unique way. 
-                Tasting food goes far beyond its nurtious values, but it is an experience given to you by the chef, 
-                hand crafted because they think it will make you feel comforted. 
-                Truly delicous food can be remembered for a lifetime or bring you back to a specifc time and place.
-                Showcasing that food not only warms the stomach, but also the soul. 
+                From a young age, I’ve been drawn to the kitchen, finding enjoyment in the independence of cooking for myself.
+                For me, cooking is a liberating creative outlet: 
+                rather than following a recipe book, I improvise with whatever ingredients I find in the fridge, trusting my intuition to guide flavour and technique.
+                Food is far more than just fuel—it’s an art form that tells stories, evokes memories, and offers comfort in every bite.
+                A truly memorable meal can transport you back to a cherished moment or introduce you to a new world, warming both the stomach and the soul.
               </p>
             </div>
           </li>
