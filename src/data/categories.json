@@ -6,25 +6,18 @@
     "items": [
       {
         "id": "m1",
-        "title": "Differential Gearbox",
-        "label": "Differential Gearbox",
+        "title": "Razor Scooter Assembly",
+        "label": "Razor Scoter Assembly",
         "link": "/projects/mechanical/m1",
-        "timeline": "Jan – Apr 2025",
-        "description": "Designed and optimized a 5:1 differential gearbox in SolidWorks.",
+        "timeline": "May 2025",
+        "description": "Used Autodesk Inventor to fully CAD a Razor Scooter based on a reference photo",
         "images": [
           "assets/mech1.png",
           "assets/mech2.png"
         ],
         "skills": [
-          "CAD (SolidWorks)",
-          "Finite Element Analysis",
-          "GD&T"
+          "CAD (Inventor)"
         ]
-      },
-      {
-        "id": "m2",
-        "label": "Planetary Gear System",
-        "link": "/projects/mechanical/m2"
       }
     ]
   },
@@ -35,13 +28,39 @@
     "items": [
       {
         "id": "s1",
-        "label": "Inventory Tracker",
-        "link": "/projects/software/s1"
+        "title": "Stellar Motion Exploration",
+        "label": "Stellar Motion Exploration",
+        "link": "/projects/software/s1",
+        "timeline": "April 2025",
+        "description": "Guided by MATLAB’s OnRamps Astronomy Spectroscopy module, I developed a MATLAB script to measure stellar velocities via the Doppler shift of the Hydrogen-alpha absorption line.\n\nI began by importing wavelength-vs-intensity spectra for seven stars and plotting each spectrum. Using MATLAB’s min function, I identified the Hα trough—where hydrogen atoms absorb most strongly—and compared its observed wavelength (λₒᵦₛ) to the laboratory reference of 656.28 nm.\n\nI then computed the fractional shift,\n\nz = (λₒᵦₛ/656.28nm) -1\n\nand the corresponding radial speed,\n\nv = z x C\n\nA positive z (λₒᵦₛ > 656.28 nm) indicates redshift (receding), while a negative z (λₒᵦₛ < 656.28 nm) indicates blueshift (approaching).\n\nBy looping through each star’s data structure with for and if logic, the code automatically extracted, analyzed, and classified all spectra. Finally, I overlaid the results on a single plot—using bold solid lines for redshifted stars and dashed lines for blueshifted ones—to provide a clear visual summary of stellar motion relative to Earth.",
+        "images": [
+     {
+       "src": "/assets/projects/Star_allshift.png",
+       "caption": "All seven stars’ intensity vs λ spectra"
+     },
+     {
+       "src": "/assets/projects/HA_line.png",
+       "caption": "Hα absorption trough"
+     }
+   ],
+        "skills": [
+          "MATLAB"
+        ]
       },
       {
         "id": "s2",
-        "label": "Tool Y",
-        "link": "/projects/software/s2"
+        "title": "Automotive Performance Choice",
+        "label": "Automotive Performance Choice",
+        "link": "/projects/software/s2",
+        "timeline": "April 2025",
+        "description": "Leveraged Simulink's OnRamps course to design a block diagram",
+        "images": [
+          "assets/mech1.png",
+          "assets/mech1.png"
+        ],
+        "skills": [
+          "Simulink"
+        ]
       }
     ]
   },
@@ -49,12 +68,6 @@
     "id": "general",
     "title": "General Projects",
     "imageSrc": "projects/general.jpg",
-    "items": [
-      {
-        "id": "g1",
-        "label": "Misc 1",
-        "link": "/projects/general/g1"
-      }
-    ]
+    "items": []
   }
 ]

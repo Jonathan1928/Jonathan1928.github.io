@@ -1,5 +1,5 @@
 .container {
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   padding: 2rem;
   color: var(--color-text);
@@ -29,7 +29,9 @@
 }
 
 .description {
+  white-space: pre-line;
   line-height: 1.6;
+  font-size: 20px;
 }
 
 /* Gallery */
@@ -39,10 +41,27 @@
   gap: 1rem;
 }
 
+/* each figure stacks image + caption */
+.figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* bump this up to whatever max width you like */
 .image {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 8px;
+  width: 400px;     /* ← increase size */
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* style your caption */
+.caption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  text-align: center;
 }
 
 /* Skills */

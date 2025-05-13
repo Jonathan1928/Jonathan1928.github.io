@@ -24,14 +24,18 @@ export const ProjectTemplate = ({ project }) => {
         <section className={styles.section}>
           <h2 className={styles.sectionHeader}>Gallery</h2>
           <div className={styles.images}>
-            {images.map((src, i) => (
-              <img
-                key={i}
-                src={src}
-                alt={`${title} screenshot ${i + 1}`}
-                className={styles.image}
-              />
-            ))}
+            {images.map(({ src, caption }, i) => (
+   <figure key={i} className={styles.figure}>
+     <img
+       src={src}
+       alt={caption}
+       className={styles.image}
+     />
+     <figcaption className={styles.caption}>
+       {caption}
+     </figcaption>
+   </figure>
+ ))}
           </div>
         </section>
       )}

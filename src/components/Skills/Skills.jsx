@@ -40,14 +40,6 @@ export const Skills = () => {
           />
           <span className={styles.label}>Simulink</span>
         </li>
-        <li className={styles.item}>
-          <img
-            src={getImageUrl('skills/ansys.png')}
-            alt="ansys icon"
-            className={styles.icon}
-          />
-          <span className={styles.label}>Ansys</span>
-        </li>
       </ul>
     </section>
   );
